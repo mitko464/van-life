@@ -18,6 +18,11 @@ body {
   scrollbar-width: none;
 }
 
+#root {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 header {
     height: 110px;
     display: flex;
