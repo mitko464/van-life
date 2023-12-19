@@ -23,6 +23,11 @@ body {
   scrollbar-width: none;
 }
 
+#root {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 .site-wrapper {
     min-height: 100vh;
     display: flex;
