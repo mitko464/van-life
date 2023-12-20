@@ -23,15 +23,15 @@ body {
   scrollbar-width: none;
 }
 
-#root {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
 .site-wrapper {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+}
+
+#root {
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 header {
@@ -464,4 +464,14 @@ i[class*='van-type-'] {
 .host-van-detail-image {
     height: 100px;
     border-radius: 5px;
+}
+
+.not-found-container {
+    padding-inline: 26px;
+}
+
+.not-found-container .link-button {
+    width: 100%;
+    background-color: #161616;
+    color: white;
 }
