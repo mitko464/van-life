@@ -11,6 +11,7 @@ export default function Header() {
 
     function fakeLogOut() {
         localStorage.removeItem("loggedin")
+        console.log('Logged out!')
     }
 
     return (
@@ -41,6 +42,7 @@ export default function Header() {
                         className="login-icon"
                     />
                 </Link>
+
                 <button onClick={fakeLogOut}>X</button>
             </nav>
         </header>
